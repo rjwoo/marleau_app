@@ -28,13 +28,10 @@ body {
  background-color: black;
 }
 
-/*.profile {
- width: 100%;
-}*/
-
 .right-container {
- padding-left: 45%;
+ padding-left: 35px;
  padding-top: 30px;
+ overflow: auto;
 }
 
 h1 {
@@ -50,4 +47,8 @@ h1 {
 
 .fa-twitter {
  font-size: 20px;
+}
+
+.menu {
+  color: white;
 }
