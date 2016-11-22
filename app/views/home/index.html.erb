@@ -1,4 +1,21 @@
 <div class="right-container">
-  <h1>Marleau</h1>
+  <h1 class="page-title">Marleau</h1>
   <p class="sub-title">For Mayor</p>
+  <div id="player">
+    <audio id="mytrack" controls>
+      <source src="../../../assets/audio/01_Marleau_Country.mp3" type="audio/mp3"/>
+    </audio>
+    <nav>
+      <div id="defaultBar">
+        <div id="progressBar"></div>
+      </div>
+      <div id="buttons">
+        <button type="button" id="playButton" onclick="playOrPause()"><i class="fa fa-play-circle" aria-hidden="true"></i></button>
+        <button type="button" id="muteButton"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+        <div id="timeStamp">
+          <span id="currentTime">0:00</span>/<span id="fullDuration">0:00</span>
+        </div>
+      </div>
+    </nav>
+  </div>
 </div>

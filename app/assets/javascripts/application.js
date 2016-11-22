@@ -14,3 +14,14 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+var mytrack = document.getElementById('mytrack');
+var playButton = document.getElementById('playButton');
+
+function playOrPause() {
+  if (!mytrack.paused && !mytrack.ended){
+    mytrack.pause();
+  } else {
+    mytrack.play();
+  }
+}

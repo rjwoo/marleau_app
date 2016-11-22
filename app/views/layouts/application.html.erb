@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>MarleauApp</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-</head>
-<body>
+  <head>
+    <title>MarleauApp</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
 
-  <%= render "/layouts/navbar" %>
+    <%= render "/layouts/navbar" %>
 
-  <%= yield %>
+    <%= yield %>
 
-</body>
+    <script type="text/javascript" src="application.js"></script>
+  </body>
 </html>
